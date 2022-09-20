@@ -14,11 +14,30 @@
 .arial_bold{
     font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
     font-weight: bold;
-    font-size: 1.5rem;
 }
 
 .bgc_blue{
     background-color: rgb(69,171,234);
+}
+
+.bgc_purple{
+    background-color: rgb(156,114,228);
+}
+
+.bgc_green{
+    background-color: rgb(100,192,169);
+}
+
+.bgc_orange{
+    background-color: rgb(242,	158	,51	);
+}
+
+.bgc_pink{
+    background-color: rgb(216,	99	,161	);
+}
+
+.bgc_lime{
+    background-color: rgb(176,	201	,38	);
 }
 
 /* Tags */
@@ -49,9 +68,13 @@ main{
     background-color: white;
 }
 
+section{
+    padding-left: 2.5rem;
+}
+
 /* Ids */
 #b_task{
-    margin: 1rem 0.5rem 1rem 2.5rem;
+    margin: 1rem 0.5rem 1rem 0;
     color: white;
 }
 
@@ -60,9 +83,36 @@ main{
     border: 1px solid rgb(214,218,222);
 }
 
+#tool_bar{
+    border-bottom: 2px solid rgb(246,248,249);
+}
+
 /* Classes */
 .button{
     border-radius: 5px;
     font-size: 0.6rem;
     padding: 0.5rem;
+}
+
+.list{
+    padding: 2.5rem 0 0 0;
+}
+
+.list>h2{
+    font-size: 1.5rem;
+}
+
+.list>div{
+    padding-top: 0.6rem;
+}
+
+.list *{
+    vertical-align: middle;
+}
+
+.tag{
+    color: white;
+    font-size: 0.4rem;
+    padding: 0.6rem;
+    border-radius: 20px;
 }
