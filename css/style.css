@@ -87,6 +87,10 @@ section{
     border-bottom: 2px solid rgb(246,248,249);
 }
 
+#todolist{
+    padding-bottom: 2rem;
+}
+
 /* Classes */
 .button{
     border-radius: 5px;
@@ -102,8 +106,12 @@ section{
     font-size: 1.5rem;
 }
 
+.list>h2>span{
+    font-size: 1rem;
+}
+
 .list>div{
-    padding-top: 0.6rem;
+    padding: 0.6rem 0rem 0.3rem 0;
 }
 
 .list *{
