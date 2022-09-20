@@ -17,6 +17,10 @@
     font-size: 1.5rem;
 }
 
+.bgc_blue{
+    background-color: rgb(69,171,234);
+}
+
 /* Tags */
 body{
     font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
@@ -41,11 +45,24 @@ header>h1{
 
 main{
     width: 60%;
-    margin: auto;
+    margin: 3rem auto;
     background-color: white;
 }
 
 /* Ids */
+#b_task{
+    margin: 1rem 0.5rem 1rem 2.5rem;
+    color: white;
+}
 
+#b_section{
+    color: rgb(214,218,222);
+    border: 1px solid rgb(214,218,222);
+}
 
 /* Classes */
+.button{
+    border-radius: 5px;
+    font-size: 0.6rem;
+    padding: 0.5rem;
+}
